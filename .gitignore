@@ -16,4 +16,4 @@ Thumbs.db
 
 # build artifacts
 dist/
-public/css/styles.out.css
+#public/css/styles.out.css
