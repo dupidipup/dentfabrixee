@@ -1,0 +1,5 @@
+[
+  { "src": "public/img/carousel/slide1.png", "alt": { "et": "3D-prinditud hambamudel", "en": "3D-printed dental model" } },
+  { "src": "public/img/carousel/slide2.png", "alt": { "et": "Kirurgiline siinik", "en": "Surgical guide" } },
+  { "src": "public/img/carousel/slide3.jpg", "alt": { "et": "Ortodontiline aparaat", "en": "Orthodontic appliance" } }
+]
