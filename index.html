@@ -20,7 +20,11 @@
           <p class="text-base md:text-lg text-slate-600" data-i18n="heroSub"></p>
           <div class="flex gap-3">
             <a href="pricing.html" class="rounded-xl bg-df-dark text-white px-5 py-3 hover:bg-df-blue shadow-soft" data-i18n="ctaViewPrices"></a>
-            <a href="#contact" class="rounded-xl bg-white text-df-dark px-5 py-3 border hover:shadow" data-i18n="ctaContact"></a>
+            <!-- Contact button (mailto, localized subject) -->
+            <a id="contactBtn"
+               href="mailto:info@dentfabrix.ee"
+               class="rounded-xl bg-white text-df-dark px-5 py-3 border hover:shadow"
+               data-i18n="ctaContact"></a>
           </div>
         </div>
 
@@ -51,5 +55,6 @@
   <script type="module" src="public/js/app.js"></script>
   <script type="module" src="public/js/components.js"></script>
   <script type="module" src="public/js/carousel.js"></script>
+  <script type="module" src="public/js/contact-mailto.js"></script>
 </body>
 </html>

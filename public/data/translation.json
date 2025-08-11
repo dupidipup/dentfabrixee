@@ -12,7 +12,8 @@
   },
   "ctaViewPrices": { "et": "Vaata hinnakirja", "en": "View prices" },
   "ctaContact": { "et": "Võta ühendust", "en": "Contact" },
-
+  "contactSubject": { "et": "DentFabrix päring", "en": "DentFabrix inquiry" }, 
+  
   "aboutUsTitle": { "et": "Meist", "en": "About us" },
   "aboutUsText": {
     "et": "Oleme Tallinna-põhine hambalabor, mis ühendab 3D‑tehnoloogia ja käsitööoskused, et pakkuda stabiilset kvaliteeti ja õigel ajal tarnet.",
