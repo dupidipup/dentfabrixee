@@ -39,5 +39,9 @@
     "en": "Tallinn, Estonia"
   },
 
-  "pdfLabel": { "et": "PDF", "en": "PDF" }
+  "pdfLabel": { "et": "PDF", "en": "PDF" },
+  "vatNote": {
+    "et": "Hinnad on eurodes. Käibemaksu ei lisandu (ei ole käibemaksukohuslane).",
+    "en": "Prices are in euros. No VAT is charged (not VAT liable)."
+  }
 }

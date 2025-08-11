@@ -17,10 +17,10 @@ function desktopTable(items, lang) {
     </thead>
     <tbody>
       ${items.map((it, i) => `
-        <tr class="border-t">
-          <td class="px-4 py-3">${i + 1}</td>
-          <td class="px-4 py-3">${it[lang]}</td>
-          <td class="px-4 py-3">${it.price}</td>
+        <tr class="group border-t">
+          <td class="px-4 py-3 transition-colors group-hover:bg-blue-50">${i + 1}</td>
+          <td class="px-4 py-3 transition-colors group-hover:bg-blue-50">${it[lang]}</td>
+          <td class="px-4 py-3 transition-colors group-hover:bg-blue-50">${it.price}</td>
         </tr>
       `).join("")}
     </tbody>
