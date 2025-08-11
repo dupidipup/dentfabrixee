@@ -1,0 +1,10 @@
+/* Print styling for the Pricing page */
+@media print {
+  header, footer, #downloadPdf, #langToggle, nav { display: none !important; }
+  body { background: #fff !important; }
+  .print-container { max-width: 900px; margin: 0 auto; }
+  table { width: 100%; border-collapse: collapse; }
+  thead th { border-bottom: 2px solid #000; }
+  tbody td { border-bottom: 1px solid #ddd; }
+  .shadow, .shadow-soft { box-shadow: none !important; }
+}

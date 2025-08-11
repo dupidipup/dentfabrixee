@@ -1,0 +1,11 @@
+{
+  "name": "dentfabrix",
+  "private": true,
+  "scripts": {
+    "dev": "tailwindcss -i ./public/css/styles.css -o ./public/css/styles.out.css --watch",
+    "build": "tailwindcss -i ./public/css/styles.css -o ./public/css/styles.out.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}

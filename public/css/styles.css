@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* tokens */
+:root {
+  --capsule: theme(colors.df.graycap);
+}
+
+/* nav links hover */
+.nav-pill a { @apply px-3 py-1 rounded-full hover:bg-white transition; }

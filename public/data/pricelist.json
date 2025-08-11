@@ -1,0 +1,77 @@
+[
+  {
+    "et": "3D-prinditud mudel (üks lõualuu)",
+    "en": "3D-printed model (single arch)",
+    "price": "35"
+  },
+  {
+    "et": "3D-prinditud mudel (mõlemad lõuad)",
+    "en": "3D-printed models (both arches)",
+    "price": "60"
+  },
+  {
+    "et": "Kirurgiline siinik",
+    "en": "Surgical guide",
+    "price": "150"
+  },
+  {
+    "et": "Ajutine kroon (print)",
+    "en": "Temporary crown (printed)",
+    "price": "45"
+  },
+  {
+    "et": "Ajutine sild (print, hammas)",
+    "en": "Temporary bridge (per unit, printed)",
+    "price": "40"
+  },
+  {
+    "et": "Valuplaadi mudel",
+    "en": "Cast partial framework model",
+    "price": "50"
+  },
+  {
+    "et": "Ortodontiline aparaat (print)",
+    "en": "Orthodontic appliance (printed)",
+    "price": "120"
+  },
+  {
+    "et": "Öökape (print)",
+    "en": "Night guard (printed)",
+    "price": "90"
+  },
+  {
+    "et": "Valgenduskapede komplekt",
+    "en": "Whitening tray set",
+    "price": "110"
+  },
+  {
+    "et": "Skaneerimine (hammas/rida)",
+    "en": "Scanning (tooth/arch)",
+    "price": "20"
+  },
+  {
+    "et": "Disainiteenus (cad, tund)",
+    "en": "Design service (CAD, per hour)",
+    "price": "50"
+  },
+  {
+    "et": "Model cast duplikaat",
+    "en": "Model cast duplicate",
+    "price": "30"
+  },
+  {
+    "et": "Modelleerimine diagnostikaks",
+    "en": "Diagnostic wax-up (printed)",
+    "price": "70"
+  },
+  {
+    "et": "Remont / järelviimistlus",
+    "en": "Repair / finishing",
+    "price": "35"
+  },
+  {
+    "et": "Kiirtöö lisatasu",
+    "en": "Rush fee",
+    "price": "25%"
+  }
+]
