@@ -1,7 +1,7 @@
 import { I18N, applyI18n, t } from "./app.js";
 
 async function getPricing() {
-  const res = await fetch("/public/data/pricelist.json");
+  const res = await fetch("public/data/pricelist.json", { cache: "no-cache" });
   return res.json();
 }
 
@@ -40,26 +40,36 @@ function mobileCards(items, lang) {
   </div>`;
 }
 
+let cachedItems = null;
+
 async function renderPricing() {
-  const items = await getPricing();
+  if (!cachedItems) cachedItems = await getPricing();
   const lang = I18N.lang || "et";
   const html = `
-    <div class="hidden md:block">${desktopTable(items, lang)}</div>
-    ${mobileCards(items, lang)}
+    <div class="hidden md:block">${desktopTable(cachedItems, lang)}</div>
+    ${mobileCards(cachedItems, lang)}
   `;
   const container = document.getElementById("priceTable");
+  if (!container) return;
   container.innerHTML = html;
   applyI18n(container);
 }
 
 function setupPrint() {
   const btn = document.getElementById("downloadPdf");
-  btn?.addEventListener("click", () => {
-    window.print();
-  });
+  btn?.addEventListener("click", () => window.print());
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  renderPricing();
+document.addEventListener("DOMContentLoaded", async () => {
+  await renderPricing();
   setupPrint();
+});
+
+// Re-render when language becomes available or changes
+document.addEventListener("i18n:loaded", renderPricing);
+document.addEventListener("i18n:changed", renderPricing);
+
+// Also handle multi-tab sync
+window.addEventListener("storage", (e) => {
+  if (e.key === "lang" || e.key === "lang_sync") renderPricing();
 });

@@ -1,12 +1,7 @@
 {
-  "navHome": {
-    "et": "Avaleht",
-    "en": "Home"
-  },
-  "navPrices": {
-    "et": "Hinnakiri",
-    "en": "Prices"
-  },
+  "navHome": { "et": "Avaleht", "en": "Home" },
+  "navPrices": { "et": "Hinnakiri", "en": "Prices" },
+
   "heroTitle": {
     "et": "DentFabrix — kaasaegne hambalabor 3D‑printimisele spetsialiseerumisega",
     "en": "DentFabrix — modern dental lab specializing in 3D printing"
@@ -15,52 +10,33 @@
     "et": "Puhas, täpne ja kiire tootmine kroonidele, sildadele ja mudelitele.",
     "en": "Clean, precise, and fast production for crowns, bridges, and models."
   },
-  "ctaViewPrices": {
-    "et": "Vaata hinnakirja",
-    "en": "View prices"
-  },
-  "ctaContact": {
-    "et": "Võta ühendust",
-    "en": "Contact"
-  },
-  "aboutUsTitle": {
-    "et": "Meist",
-    "en": "About us"
-  },
+  "ctaViewPrices": { "et": "Vaata hinnakirja", "en": "View prices" },
+  "ctaContact": { "et": "Võta ühendust", "en": "Contact" },
+
+  "aboutUsTitle": { "et": "Meist", "en": "About us" },
   "aboutUsText": {
     "et": "Oleme Tallinna-põhine hambalabor, mis ühendab 3D‑tehnoloogia ja käsitööoskused, et pakkuda stabiilset kvaliteeti ja õigel ajal tarnet.",
     "en": "We’re a Tallinn-based dental lab combining 3D technology and craftsmanship to deliver consistent quality and on-time delivery."
   },
-  "priceTitle": {
-    "et": "Hinnakiri",
-    "en": "Price list"
-  },
+
+  "priceTitle": { "et": "Hinnakiri", "en": "Price list" },
   "priceIntro": {
     "et": "Allpool on standardteenused. Suuremate või eriprojektide puhul küsi pakkumist.",
     "en": "Below are standard services. For larger or custom projects, request a quote."
   },
-  "service": {
-    "et": "Teenuse nimetus",
-    "en": "Service"
-  },
-  "price": {
-    "et": "Hind (€)",
-    "en": "Price (€)"
-  },
+  "service": { "et": "Teenuse nimetus", "en": "Service" },
+  "price": { "et": "Hind (€)", "en": "Price (€)" },
+
   "footerTagline": {
     "et": "Täpsus, mis naeratab. 3D‑printimine ja laboriteenused hammastega seotud töödele.",
     "en": "Precision that smiles. 3D printing and lab services for dental work."
   },
-  "footerContactTitle": {
-    "et": "Kontakt",
-    "en": "Contact"
-  },
-  "footerLinksTitle": {
-    "et": "Lingid",
-    "en": "Links"
-  },
+  "footerContactTitle": { "et": "Kontakt", "en": "Contact" },
+  "footerLinksTitle": { "et": "Lingid", "en": "Links" },
   "footerAddress": {
     "et": "Tallinn, Eesti",
     "en": "Tallinn, Estonia"
-  }
+  },
+
+  "pdfLabel": { "et": "PDF", "en": "PDF" }
 }

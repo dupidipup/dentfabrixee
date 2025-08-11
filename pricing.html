@@ -4,11 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DentFabrix — Price list</title>
-  <link rel="icon" type="image/svg+xml" href="/public/img/favicon.svg">
-  <link href="/public/css/styles.out.css" rel="stylesheet">
-  <link href="/public/css/print.css" rel="stylesheet" media="print">
+  <link rel="icon" type="image/svg+xml" href="public/img/favicon.svg">
+  <link href="public/css/styles.out.css" rel="stylesheet">
+  <link href="public/css/print.css" rel="stylesheet" media="print">
 </head>
 <body class="bg-beige-50 text-slate-900">
+  <!-- Header injected -->
   <div data-component="header"></div>
 
   <main class="py-10 md:py-14 lg:py-20">
@@ -25,10 +26,12 @@
     </div>
   </main>
 
+  <!-- Footer injected -->
   <div data-component="footer"></div>
 
-  <script type="module" src="/public/js/app.js"></script>
-  <script type="module" src="/public/js/components.js"></script>
-  <script type="module" src="/public/js/pricing.js"></script>
+  <!-- Scripts: order matters -->
+  <script type="module" src="public/js/app.js"></script>
+  <script type="module" src="public/js/components.js"></script>
+  <script type="module" src="public/js/pricing.js"></script>
 </body>
 </html>

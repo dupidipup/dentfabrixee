@@ -4,10 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DentFabrix — Modern dental lab</title>
-  <link rel="icon" type="image/svg+xml" href="/public/img/favicon.svg">
-  <link href="/public/css/styles.out.css" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="public/img/favicon.svg">
+  <link href="public/css/styles.out.css" rel="stylesheet">
 </head>
 <body class="bg-beige-50 text-slate-900">
+  <!-- Header injected -->
   <div data-component="header"></div>
 
   <!-- Hero -->
@@ -18,10 +19,11 @@
           <h1 class="text-3xl md:text-5xl font-semibold leading-tight" data-i18n="heroTitle"></h1>
           <p class="text-base md:text-lg text-slate-600" data-i18n="heroSub"></p>
           <div class="flex gap-3">
-            <a href="/pricing.html" class="rounded-xl bg-df-dark text-white px-5 py-3 hover:bg-df-blue shadow-soft" data-i18n="ctaViewPrices"></a>
+            <a href="pricing.html" class="rounded-xl bg-df-dark text-white px-5 py-3 hover:bg-df-blue shadow-soft" data-i18n="ctaViewPrices"></a>
             <a href="#contact" class="rounded-xl bg-white text-df-dark px-5 py-3 border hover:shadow" data-i18n="ctaContact"></a>
           </div>
         </div>
+
         <!-- Right side: Carousel -->
         <div class="col-span-4 md:col-span-3 lg:col-span-5">
           <div id="dfCarousel" class="w-full"></div>
@@ -42,10 +44,12 @@
     </div>
   </section>
 
+  <!-- Footer injected -->
   <div data-component="footer"></div>
 
-  <script type="module" src="/public/js/app.js"></script>
-  <script type="module" src="/public/js/components.js"></script>
+  <!-- Scripts: order matters -->
+  <script type="module" src="public/js/app.js"></script>
+  <script type="module" src="public/js/components.js"></script>
   <script type="module" src="public/js/carousel.js"></script>
 </body>
 </html>
