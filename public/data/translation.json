@@ -1,6 +1,8 @@
 {
   "navHome": { "et": "Avaleht", "en": "Home" },
   "navPrices": { "et": "Hinnakiri", "en": "Prices" },
+  "navWorks": { "et": "Tehtud tööd", "en": "Work samples" },
+  "navOrdering": { "et": "Tellimine", "en": "Ordering" },
 
   "heroTitle": {
     "et": "DentFabrix — kaasaegne hambalabor 3D‑printimisele spetsialiseerumisega",
@@ -27,6 +29,52 @@
   },
   "service": { "et": "Teenuse nimetus", "en": "Service" },
   "price": { "et": "Hind (€)", "en": "Price (€)" },
+
+"worksTitle": { "et": "Tehtud tööd", "en": "Work samples" },
+  "worksIntro": {
+    "et": "Sirvi kategooriaid, et näha valikut meie 3D‑printimise töödest.",
+    "en": "Browse categories to see a selection of our 3D‑printed work."
+  },
+  "worksBack": { "et": "Tagasi kategooriatesse", "en": "Back to categories" },
+
+  "orderingTitle": { "et": "Tellimine", "en": "Ordering" },
+  "orderingIntro": {
+    "et": "Kuidas esitada töö, milliseid faile aktsepteerime ja mida tähele panna.",
+    "en": "How to submit a job, accepted file formats, and what to include."
+  },
+  "orderHowTitle": { "et": "Kuidas tellida", "en": "How to order" },
+  "orderHow1": {
+    "et": "Saada meile meiliga (kontaktnupu kaudu) või faili‑jagamisteenuse lingiga.",
+    "en": "Email us (via the contact button) or share a link from your file service."
+  },
+  "orderHow2": {
+    "et": "Lisa lühike kirjeldus: töö tüüp, materjal/vaik, värv, tähtajad.",
+    "en": "Include a short brief: job type, material/resin, color, deadlines."
+  },
+  "orderHow3": {
+    "et": "Lisa referentspildid, kui võimalik (diagnostika, varasem töö, toon).",
+    "en": "Add reference images if possible (diagnostic, prior work, shade)."
+  },
+
+  "orderFormatsTitle": { "et": "Aktsepteeritavad failivormingud", "en": "Accepted file formats" },
+  "fmtSTL": { "et": "STL — eelistatud formaat geomeetriale.", "en": "STL — preferred for geometry." },
+  "fmt3MF": { "et": "3MF — sisaldab seadeid; sobib paljudeks juhtudeks.", "en": "3MF — can include settings; good general option." },
+  "fmtOBJ": { "et": "OBJ — toetame, vajadusel koos MTL‑iga.", "en": "OBJ — supported, with MTL if needed." },
+  "fmtPLY": { "et": "PLY — toetatud, eriti värviandmetega skannid.", "en": "PLY — supported, useful for color scans." },
+
+  "orderNotesTitle": { "et": "Märkused", "en": "Notes" },
+  "orderNote1": {
+    "et": "Failide kogumaht kuni 500 MB tellimuse kohta (võrgu kaudu).",
+    "en": "Total file size up to 500 MB per order (via online transfer)."
+  },
+  "orderNote2": {
+    "et": "Tüüpiline teostusaeg 1–3 tööpäeva; kiirtööl lisandub kiirtöö tasu.",
+    "en": "Typical turnaround 1–3 business days; rush fee applies for urgent jobs."
+  },
+  "orderNote3": {
+    "et": "Hinnakiri kehtib eurodes ja käibemaksu ei lisandu.",
+    "en": "Price list in euros; VAT not charged."
+  },
 
   "footerTagline": {
     "et": "Täpsus, mis naeratab. 3D‑printimine ja laboriteenused hammastega seotud töödele.",

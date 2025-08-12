@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "slug": "models",
+      "title": { "et": "Mudelite print", "en": "Model printing" },
+      "desc":  { "et": "Ortodontilised ja töö‑mudelid.", "en": "Orthodontic and working models." },
+      "cover": "public/image/works/models/cover.jpg",
+      "items": [
+        {
+          "src": "public/image/works/models/model1.jpg",
+          "alt": { "et": "Ülalõua mudel", "en": "Maxillary model" }
+        },
+        {
+          "src": "public/image/works/models/model2.jpg",
+          "alt": { "et": "Alalõua mudel", "en": "Mandibular model" }
+        }
+      ]
+    },
+    {
+      "slug": "surgical-guides",
+      "title": { "et": "Kirurgilised siinikud", "en": "Surgical guides" },
+      "desc":  { "et": "Täpsed siinikud implantatsiooniks.", "en": "Accurate guides for implant placement." },
+      "cover": "public/image/works/guides/cover.jpg",
+      "items": [
+        {
+          "src": "public/image/works/guides/guide1.jpg",
+          "alt": { "et": "Kirurgiline siinik 1", "en": "Surgical guide 1" }
+        },
+        {
+          "src": "public/image/works/guides/guide2.jpg",
+          "alt": { "et": "Kirurgiline siinik 2", "en": "Surgical guide 2" }
+        }
+      ]
+    }
+  ]
+}

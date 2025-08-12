@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="et" class="h-full">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DentFabrix — Tellimine</title>
+  <link rel="icon" type="image/svg+xml" href="public/img/favicon.svg">
+  <link href="public/css/styles.out.css" rel="stylesheet">
+</head>
+<body class="bg-beige-50 text-slate-900">
+  <div data-component="header"></div>
+
+  <main class="py-10 md:py-14 lg:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <header class="space-y-3 md:space-y-4">
+        <h1 class="text-2xl md:text-4xl font-semibold" data-i18n="orderingTitle"></h1>
+        <p class="text-slate-600" data-i18n="orderingIntro"></p>
+      </header>
+
+      <section class="mt-8 space-y-6">
+        <div class="rounded-2xl bg-white shadow p-6">
+          <h2 class="text-lg font-semibold mb-3" data-i18n="orderHowTitle"></h2>
+          <ul class="list-disc pl-6 space-y-1 text-slate-700">
+            <li data-i18n="orderHow1"></li>
+            <li data-i18n="orderHow2"></li>
+            <li data-i18n="orderHow3"></li>
+          </ul>
+        </div>
+
+        <div class="rounded-2xl bg-white shadow p-6">
+          <h2 class="text-lg font-semibold mb-3" data-i18n="orderFormatsTitle"></h2>
+          <ul class="list-disc pl-6 space-y-1 text-slate-700">
+            <li data-i18n="fmtSTL"></li>
+            <li data-i18n="fmt3MF"></li>
+            <li data-i18n="fmtOBJ"></li>
+            <li data-i18n="fmtPLY"></li>
+          </ul>
+        </div>
+
+        <div class="rounded-2xl bg-white shadow p-6">
+          <h2 class="text-lg font-semibold mb-3" data-i18n="orderNotesTitle"></h2>
+          <ul class="list-disc pl-6 space-y-1 text-slate-700">
+            <li data-i18n="orderNote1"></li>
+            <li data-i18n="orderNote2"></li>
+            <li data-i18n="orderNote3"></li>
+          </ul>
+        </div>
+
+        <div class="flex gap-3">
+          <a href="mailto:info@dentfabrix.ee" id="contactBtn"
+             class="rounded-xl bg-df-dark text-white px-5 py-3 hover:bg-df-blue shadow-soft"
+             data-i18n="ctaContact"></a>
+          <a href="pricing.html" class="rounded-xl bg-white text-df-dark px-5 py-3 border hover:shadow" data-i18n="ctaViewPrices"></a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div data-component="footer"></div>
+
+  <script type="module" src="public/js/app.js"></script>
+  <script type="module" src="public/js/components.js"></script>
+  <script type="module" src="public/js/contact-mailto.js"></script>
+</body>
+</html>
